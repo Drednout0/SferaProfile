@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SferaProfile</string>
+    <string name="page_title">ID 123 456 789</string>
+    <string name="_5">5</string>
+    <string name="some_id">4.6</string>
+    <string name="profile_name">Алиса Александрийская</string>
+    <string name="languade">Russian, English, German</string>
+    <string name="choose">Choose</string>
+    <string name="Russia">Москва, Россия</string>
+    <string name="People">PEOPLE</string>
+    <string name="quest">QUESTIONNAIRES</string>
+    <string name="about_me">About me</string>
+    <string name="me_text">Жизнь человека будет намного интереснее и приятнее если мы будем писать говнокод</string>
+    <string name="dream_and_get">Dream and get</string>
+    <string name="wishes">WISHES</string>
+    <string name="moments">Moments</string>
+    <string name="chronicles">Chronicles</string>
+    <string name="image_for_profile" />
+</resources>
