@@ -1,28 +1,25 @@
 package com.bignerdranch.android.sferaprofile.adapter
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bignerdranch.android.sferaprofile.databinding.List2Binding
 
 import com.bignerdranch.android.sferaprofile.databinding.ListBinding
+import com.example.sferaproject.model.ImageModel
 
-class AdapterMom : RecyclerView.Adapter<AdapterMom.MomentUserViewHolder>() {
-    private var userList2 = listOf(1, 2, 3, 4, 5, 6)
-
-
-    class MomentUserViewHolder(binding: ListBinding) : RecyclerView.ViewHolder(binding.root) {
-
-
+class AdapterMom (val imageList: MutableList<ImageModel> ):RecyclerView.Adapter<AdapterMom.MomentUserViewHolder>() {
+    class MomentUserViewHolder(binding: List2Binding) : RecyclerView.ViewHolder(binding.root) {
     }
-
-
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): AdapterMom.MomentUserViewHolder {
+    ): MomentUserViewHolder {
+        Log.d("aaa", "message")
         val layoutInflater = LayoutInflater.from(parent.context)
-        val binding = ListBinding.inflate(layoutInflater, parent, false)
-        return AdapterMom.MomentUserViewHolder(binding)
+        val binding = List2Binding.inflate(layoutInflater, parent, false)
+        return MomentUserViewHolder(binding)
 
 
     }
@@ -33,7 +30,7 @@ class AdapterMom : RecyclerView.Adapter<AdapterMom.MomentUserViewHolder>() {
     }
 
     override fun getItemCount(): Int {
-        return userList2.size
+        return imageList.size
     }
 
 }
