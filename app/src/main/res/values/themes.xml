@@ -109,6 +109,16 @@
     </style>
 
 
+    <style name="MyToolbar">
+        <item name="fontFamily">@font/inter_medium</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="roundImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
 
     <string name="label">
 

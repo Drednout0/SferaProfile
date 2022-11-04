@@ -9,6 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#121212</color>
     <color name="sfera">#DEFFFFFF</color>
+    <color name="sfera2">#99FFFFFF</color>
     <color name="mtrl_textinput_default_box_stroke_color">#9AFFFFFF</color>
     <color name="about">#99FFFFFF</color>
+    <color name="grey">#17FFFFFF</color>
 </resources>
